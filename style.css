@@ -1,0 +1,51 @@
+body{
+    align-items: center;
+    background-color: #00203FFF;
+    margin-top: 90px;
+    background-image: url('https://cdn.pixabay.com/photo/2019/05/29/16/00/retro-4237850_1280.jpg');
+   
+}
+#main{
+    background-color: rebeccapurple;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+#container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+.btn{
+    height: 90px;
+    width: 115px;
+    background-color: black;
+    border: .2px solid green;
+    color: aqua;
+}
+#resultUpdate{
+    text-align: center;
+    margin-top: 40px;
+    color: azure;
+}
+#count{
+    text-align: center;
+   
+    color: azure;
+}
+#rest-btn{
+    text-align: center;
+    background-color: black;
+    color: wheat;
+    width: 80px;
+    border: .3px solid black;
+}
+#playerX{
+    color: red;
+}
+#player0{
+    color: #330066;
+}
+#resultUpdate{
+    color: blue;
+}
